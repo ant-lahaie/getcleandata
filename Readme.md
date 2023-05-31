@@ -7,8 +7,11 @@ Original data and more information at [link](http://archive.ics.uci.edu/ml/datas
 ## files
 
 CodeBook.md : project codebook
+
 run_analysis.R : data wrangling script
+
 dataFiltered.csv : original data narrowed to means and standard deviations with descriptive labels
+
 dataFilteredAveraged.csv : dataFiltered.csv summarized by averaging all variables over each subject and activity
 
 Other files unchanged from the UCI dataset.
