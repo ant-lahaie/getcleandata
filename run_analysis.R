@@ -54,5 +54,5 @@ DFA_colnames <- sub("^frequency","averageFrequency",DFA_colnames)
 colnames(dataFilteredAveraged) <- DFA_colnames
 
 #save dataframes as csv files
-write.csv(dataFiltered, "dataFiltered.csv",row.names=FALSE)
-write.csv(dataFilteredAveraged, "dataFilteredAveraged.csv",row.names=FALSE)
+write.table(dataFiltered, "dataFiltered.txt",row.names=FALSE)
+write.table(dataFilteredAveraged, "dataFilteredAveraged.txt",row.names=FALSE)
