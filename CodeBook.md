@@ -6,8 +6,8 @@ Original data and more information at [link](http://archive.ics.uci.edu/ml/datas
 
 CodeBook.md : project codebook
 run_analysis.R : data wrangling script
-dataFiltered.csv : original data narrowed to means and standard deviations with descriptive labels
-dataFilteredAveraged.csv : dataFiltered.csv summarized by averaging all variables over each subject and activity
+dataFiltered.txt : original data narrowed to means and standard deviations with descriptive labels
+dataFilteredAveraged.txt : dataFiltered.txt summarized by averaging all variables over each subject and activity
 
 ## variables
 
@@ -63,4 +63,4 @@ Starting with the preceding dataframe, I grouped it by subject and activity and 
 
 I appropriately named the variables of the new dataframe by appending "averaged" at the beginning of each.
 
-I then saved both dataframes as .csv files.
+I then saved both dataframes as .txt files.

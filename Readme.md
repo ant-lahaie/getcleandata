@@ -10,8 +10,8 @@ CodeBook.md : project codebook
 
 run_analysis.R : data wrangling script
 
-dataFiltered.csv : original data narrowed to means and standard deviations with descriptive labels
+dataFiltered.txt : original data narrowed to means and standard deviations with descriptive labels
 
-dataFilteredAveraged.csv : dataFiltered.csv summarized by averaging all variables over each subject and activity
+dataFilteredAveraged.txt : dataFiltered.txt summarized by averaging all variables over each subject and activity
 
 Other files unchanged from the UCI dataset.
